@@ -58,7 +58,7 @@ public class Index
         messageEntity.setTimeOut(new Date().getTime());
         messageEntity.setReply(reply);
         dao.update(messageEntity);
-        TextReplyer.sentMessage(reply, messageEntity.getPhoneNumber());
+        TextReplyer.sendMessage(reply, messageEntity.getPhoneNumber());
     }
 
 }
