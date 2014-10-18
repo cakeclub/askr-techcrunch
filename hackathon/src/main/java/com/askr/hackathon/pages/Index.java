@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.askr.hackathon.dal.CrudServiceDAO;
 import com.askr.hackathon.entities.MessageEntity;
+import com.askr.hackathon.tools.TextReplyer;
 import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.ioc.annotations.*;
@@ -76,6 +77,8 @@ public class Index
         entity.setTimeOut(new Date().getTime());
         entity.setReply(reply);
         dao.update(entity);
+        TextReplyer.sendMessage(reply, messageEntity.getPhoneNumber());
+
     }
 
     public void onActionFromViewThread(MessageEntity sms) {
