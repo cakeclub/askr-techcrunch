@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e2f4c0b-de69-4ad4-8b96-c58925782acb" name="Default" comment="" />
+    <list default="true" id="1e2f4c0b-de69-4ad4-8b96-c58925782acb" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\artifacts\hackathon_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\artifacts\hackathon_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\hackathon.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\components\Layout.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\About.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Contact.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Index.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\app.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\components\Layout.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\pages\About.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\pages\Contact.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\pages\Index.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\pages\Index.tml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\antlr-runtime-3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\commons-codec-1.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\javassist-3.12.1.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\js-1.6R7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\log4j-1.2.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\plastic-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\slf4j-api-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\stringtemplate-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry-core-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry-func-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry-ioc-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry-json-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry-yuicompressor-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\tapestry5-annotations-5.3.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\lib\yuicompressor-2.4.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img08.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img09.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img10.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img11.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img12.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img13.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img14.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img18.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img19.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\images\img20.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\test-classes\PLACEHOLDER" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Index.tml" afterPath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index2.tml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+    </list>
     <ignored path="hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +94,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Index.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Index.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5456081" vertical-offset="0" max-vertical-offset="816">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="952">
               <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6528" max-vertical-offset="6919">
+              <caret line="384" column="22" selection-start-line="384" selection-start-column="22" selection-end-line="384" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.tml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25308642" vertical-offset="44" max-vertical-offset="884">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.tml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1496">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,6 +141,219 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hackathon" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hackathon" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="war" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Uses your files as and where they are and deploys them to Jetty." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jettyRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes the test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes the main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the webapp into a war and deploys it to Jetty." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jettyRunWar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles the test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Stops Jetty." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jettyStop" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles all Jar, War, Zip, and Tar archives." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1413641504175" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="hackathon" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/ant-1.8.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/ant-launcher-1.8.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-base-services-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-cli-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-core-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-launcher-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-native-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-open-api-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-tooling-api-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-ui-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/gradle-wrapper-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/groovy-all-1.8.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/ant-antlr-1.8.2.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-announce-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-antlr-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-code-quality-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-core-impl-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-cpp-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-ear-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-ide-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-jetty-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-maven-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-osgi-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-plugins-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-scala-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-signing-1.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-1.0-bin/3712n820lsda7ntccvm5qn52st/gradle-1.0/lib/plugins/gradle-sonar-1.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/layout/layout.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <PATH>
@@ -56,12 +365,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -89,6 +398,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="TapestryProjectView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -109,7 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -120,12 +430,43 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eletto\Documents\Hackathon\askr\hackathon\src\main\resources\com\askr\hackathon\pages" />
+    </key>
   </component>
   <component name="RunManager" selected="Jetty Server.Hackathon">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -140,17 +481,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -179,6 +510,129 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -214,25 +668,24 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Hackathon" type="JettyConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="Jetty 9.2.3.v20140905" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
@@ -249,10 +702,6 @@
         <data>
           <option name="configFiles">
             <list>
-              <JettyConfigFile>
-                <option name="active" value="true" />
-                <option name="path" value="modules\jmx.mod" />
-              </JettyConfigFile>
               <JettyConfigFile>
                 <option name="path" value="modules\annotations.mod" />
               </JettyConfigFile>
@@ -300,6 +749,10 @@
               </JettyConfigFile>
               <JettyConfigFile>
                 <option name="path" value="modules\jmx-remote.mod" />
+              </JettyConfigFile>
+              <JettyConfigFile>
+                <option name="active" value="true" />
+                <option name="path" value="modules\jmx.mod" />
               </JettyConfigFile>
               <JettyConfigFile>
                 <option name="path" value="modules\jndi.mod" />
@@ -388,7 +841,27 @@
       </server-settings>
       <predefined_log_file id="Jetty" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -430,37 +903,49 @@
       <workItem from="1413638367300" duration="17000" />
       <workItem from="1413638389585" duration="754000" />
       <workItem from="1413639209416" duration="391000" />
+      <workItem from="1413641875269" duration="68000" />
+      <workItem from="1413641963153" duration="9322000" />
+      <workItem from="1413654968943" duration="1170000" />
     </task>
+    <task id="LOCAL-00001" summary="Template init">
+      <created>1413655639203</created>
+      <updated>1413655639203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1162000" />
+    <option name="totallyTimeSpent" value="11722000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7474286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40342858" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Tapestry" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20670995" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17540108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -483,6 +968,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Template init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -494,20 +981,233 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="816">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="952">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6528" max-vertical-offset="6919">
+          <caret line="384" column="22" selection-start-line="384" selection-start-column="22" selection-end-line="384" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="884">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1496">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5456081" vertical-offset="0" max-vertical-offset="816">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="816">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Contact.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/About.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/images/img10.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="894">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index2.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48513675" vertical-offset="0" max-vertical-offset="841">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/layout/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6077" max-vertical-offset="6919">
+          <caret line="384" column="22" selection-start-line="384" selection-start-column="22" selection-end-line="384" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1496">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25308642" vertical-offset="44" max-vertical-offset="884">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hackathon:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Tapestry</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hackathon</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr-2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

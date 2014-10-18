@@ -25,9 +25,6 @@
         <module name="hackathon" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hackathon" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
 

@@ -215,7 +215,7 @@ div.content {
 /* Sidebar */
 
 div.sidebar {
-    float: right;
+    float: left;
     width: 300px;
     margin-top: 30px;
 }
@@ -367,3 +367,35 @@ div.footer .css {
 div.footer .legal a {
     padding: 0;
 }
+
+.message_card {
+    margin: 5px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    list-style-type: none;
+    width: 500px;
+}
+
+.message_stream {
+    float: left;
+}
+
+#message_thread{
+    margin-left: 10px;
+    float: left;
+    width:400px;
+}
+
+.m_inbound {
+    list-style-type: none;
+    margin:10px;
+}
+
+.m_outbound {
+    list-style-type: none;
+    text-align:right;
+    margin:10px;
+    color:#C0C0C0
+}
+
