@@ -18,12 +18,14 @@ public class MessageEntity implements Serializable {
     private String reply;
     private long timeOut;
 
-    MessageEntity(String phoneNumber, long timeRecieved, String message) {
+    public MessageEntity(String phoneNumber, long timeRecieved, String message) {
         this.phoneNumber = phoneNumber;
         this.message = message;
         this.timeRecieved = timeRecieved;
         this.id = phoneNumber + ":" + String.valueOf(timeRecieved);
     }
+
+    public MessageEntity() {}
 
     public String getId() {
         return id;
