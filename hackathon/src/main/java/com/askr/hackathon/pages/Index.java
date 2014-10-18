@@ -49,7 +49,8 @@ public class Index
     }
 
     public List<MessageEntity> getMessageStream() {
-        return messageStream;
+        //return messageStream;
+        return dao.findWithNamedQuery(MessageEntity.ALL);
     }
 
     public void saveReply(String id, String reply) {
