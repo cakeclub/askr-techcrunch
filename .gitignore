@@ -1,0 +1,11 @@
+# Java Class Files
+*.class
+
+# Target Folder
+root/target/*
+
+root/.project
+root/.classpath
+root/.settings/*
+root/.idea
+root/*.iml
