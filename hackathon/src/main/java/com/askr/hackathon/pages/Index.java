@@ -77,8 +77,7 @@ public class Index
         entity.setTimeOut(new Date().getTime());
         entity.setReply(reply);
         dao.update(entity);
-        TextReplyer.sendMessage(reply, messageEntity.getPhoneNumber());
-
+        TextReplyer.sendMessage(reply, entity.getPhoneNumber());
     }
 
     public void onActionFromViewThread(MessageEntity sms) {
