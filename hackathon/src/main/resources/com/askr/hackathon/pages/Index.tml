@@ -20,7 +20,7 @@
             <ul>
                 <t:loop source="messageStream" value="sms" >
                     <li class="message_card">
-                        <p>${sms.reply}</p>
+                        <p>${sms.message}</p>
                     </li>
                 </t:loop>
             </ul>
