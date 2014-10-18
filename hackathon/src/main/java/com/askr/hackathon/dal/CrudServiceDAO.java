@@ -93,11 +93,6 @@ public interface CrudServiceDAO
      * @return T object
      */
     <T> T findUniqueWithNamedQuery(String queryName, Map<String, Object> params);
-    
-    /**
-     * 
-     * 
-     * 
-     */
-    <T> T findRandom(Class<T> type);
+
+    <T> T findAll();
 }

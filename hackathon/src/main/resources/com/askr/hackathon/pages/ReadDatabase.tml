@@ -1,0 +1,15 @@
+<html t:type="layout" title="Database"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h1>Database</h1>
+
+        <t:Grid t:source="allMessages" row="message" class="table table-striped table-hover">
+            <p:empty>
+                <p>No Messages</p>
+            </p:empty>
+        </t:Grid>
+    </div>
+</div>
+</html>

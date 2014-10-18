@@ -20,13 +20,6 @@ public class HibernateModule
     public static void contributeBeanValidatorSource(
             OrderedConfiguration<BeanValidatorConfigurer> configuration)
     {
-//        configuration.add("HotelBookingConfigurer", new BeanValidatorConfigurer()
-//        {
-//            public void configure(javax.validation.Configuration<?> configuration)
-//            {
-//                configuration.ignoreXmlConfiguration();
-//            }
-//        });
     }
 
     @Match("*DAO")
