@@ -1,6 +1,9 @@
 package com.askr.hackathon.pages;
 
 import java.util.Date;
+
+import com.askr.hackathon.dal.CrudServiceDAO;
+import com.askr.hackathon.entities.MessageEntity;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.ioc.annotations.*;
 import org.apache.tapestry5.corelib.components.*;
@@ -17,6 +20,9 @@ public class Index
     @Symbol(SymbolConstants.TAPESTRY_VERSION)
     private String tapestryVersion;
 
+    @Inject
+    private CrudServiceDAO dao;
+
     @InjectComponent
     private Zone zone;
 
@@ -32,19 +38,15 @@ public class Index
         return new Date();
     }
 
-    /*void onActionFromIncrement()
-    {
-        alertManager.info("Increment clicked");
+    public void updateView(MessageEntity ms) {
 
-        clickCount++;
     }
 
-    Object onActionFromIncrementAjax()
-    {
-        clickCount++;
+    public void saveReply(String id, String reply) {
+        MessageEntity messageEntity = dao.find(MessageEntity.class, id);
+        messageEntity.setTimeOut(new Date().getTime());
+        messageEntity.setReply(reply);
+        dao.update(messageEntity);
+    }
 
-        alertManager.info("Increment (via Ajax) clicked");
-
-        return zone;
-    }*/
 }
