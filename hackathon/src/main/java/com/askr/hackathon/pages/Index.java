@@ -46,11 +46,12 @@ public class Index
     @Component
     private Form replyForm;
 
+    @Persist
     private MessageEntity selectedSMS;
 
     public Object onSuccess()
     {
-        //saveReply(selectedSMS.getId(),replyMsg);
+        saveReply(selectedSMS, replyMsg);
         return msg_zone;
     }
 
@@ -69,14 +70,12 @@ public class Index
 
     public List<MessageEntity> getMessageStream() {
         return messageStream;
-        //return dao.findWithNamedQuery(MessageEntity.ALL);
     }
 
-    public void saveReply(String id, String reply) {
-        MessageEntity messageEntity = dao.find(MessageEntity.class, id);
-        messageEntity.setTimeOut(new Date().getTime());
-        messageEntity.setReply(reply);
-        dao.update(messageEntity);
+    public void saveReply(MessageEntity entity, String reply) {
+        entity.setTimeOut(new Date().getTime());
+        entity.setReply(reply);
+        dao.update(entity);
     }
 
     public void onActionFromViewThread(MessageEntity sms) {
