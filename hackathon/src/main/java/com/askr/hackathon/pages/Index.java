@@ -1,6 +1,7 @@
 package com.askr.hackathon.pages;
 
 import java.util.Date;
+import java.util.List;
 
 import com.askr.hackathon.dal.CrudServiceDAO;
 import com.askr.hackathon.entities.MessageEntity;
@@ -33,13 +34,22 @@ public class Index
     @Inject
     private AlertManager alertManager;
 
+    @Property
+    private MessageEntity sms;
+
+    private List<MessageEntity> messageStream;
+
     public Date getCurrentTime()
     {
         return new Date();
     }
 
     public void updateView(MessageEntity ms) {
+        messageStream.add(ms);
+    }
 
+    public List<MessageEntity> getMessageStream() {
+        return messageStream;
     }
 
     public void saveReply(String id, String reply) {
