@@ -8,105 +8,19 @@
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\copyright\profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__cglib_cglib_nodep_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__com_beust_jcommander_1_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__com_google_guava_guava_13_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__com_yahoo_platform_yui_yuicompressor_2_4_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__commons_codec_commons_codec_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__commons_io_commons_io_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__javassist_javassist_3_12_1_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__javax_inject_javax_inject_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__javax_mail_mail_1_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__log4j_log4j_1_2_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__mx4j_mx4j_tools_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_sourceforge_cssparser_cssparser_0_9_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_2_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__net_sourceforge_nekohtml_nekohtml_1_9_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_antlr_antlr_runtime_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_antlr_stringtemplate_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_commons_commons_exec_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_httpcomponents_httpmime_4_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_plastic_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry5_annotations_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_core_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_func_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_ioc_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_javadoc_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_json_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_test_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tapestry_tapestry_yuicompressor_5_3_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_annotations_api_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_catalina_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_coyote_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_dbcp_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_juli_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_apache_tomcat_servlet_api_6_0_30.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_bouncycastle_bcpkix_jdk15on_1_47.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_bouncycastle_bcprov_jdk15on_1_47.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_easymock_easymock_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_continuation_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_http_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_io_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_jndi_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_plus_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_security_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_server_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_servlet_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_util_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_webapp_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_eclipse_jetty_jetty_xml_7_0_0_v20091005.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_json_json_20080701.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_objenesis_objenesis_1_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_android_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_api_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_ie_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_iphone_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_java_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_safari_driver_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_server_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_support_2_26_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_testng_testng_5_14_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__org_yaml_snakeyaml_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__rhino_js_1_6R7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__xalan_serializer_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__xalan_xalan_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__xerces_xercesImpl_2_9_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\libraries\Maven__xml_apis_xml_apis_1_3_04.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\misc.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\modules.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\scopes\scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\hackathon.iml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\components\Layout.tml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\About.tml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Contact.tml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Index.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Index.tml" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\log4j.properties" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\app.properties" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\WEB-INF\classes\com\askr\hackathon\components\Layout.tml" afterPath="" />
@@ -151,11 +65,8 @@
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\layout.css" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\hackathon\layout\license.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\test-classes\PLACEHOLDER" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java" afterPath="$PROJECT_DIR$/src/main/java/com/askr/hackathon/pages/Index.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml" afterPath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index.tml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml" afterPath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/components/Layout.tml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hackathon.iml" afterPath="$PROJECT_DIR$/hackathon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/layout/layout.css" afterPath="$PROJECT_DIR$/src/main/webapp/layout/layout.css" />
+      <change type="MOVED" beforePath="C:\Users\eletto\Documents\Hackathon\askr\hackathon\target\classes\com\askr\hackathon\pages\Index.tml" afterPath="$PROJECT_DIR$/src/main/resources/com/askr/hackathon/pages/Index2.tml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
     </list>
     <ignored path="hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -507,232 +418,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -763,6 +448,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Jetty Server.Hackathon">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -1211,12 +905,17 @@
       <workItem from="1413639209416" duration="391000" />
       <workItem from="1413641875269" duration="68000" />
       <workItem from="1413641963153" duration="9322000" />
-      <workItem from="1413654968943" duration="650000" />
+      <workItem from="1413654968943" duration="1170000" />
     </task>
+    <task id="LOCAL-00001" summary="Template init">
+      <created>1413655639203</created>
+      <updated>1413655639203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11202000" />
+    <option name="totallyTimeSpent" value="11722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1237,6 +936,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1250,7 +950,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1269,6 +968,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Template init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Template init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
