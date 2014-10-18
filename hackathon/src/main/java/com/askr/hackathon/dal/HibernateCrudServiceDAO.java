@@ -13,9 +13,7 @@ import java.util.Set;
 
 /**
  * Hibernate CrudService
- * 
- * @param <T>, type entity
- * @param <PK>, primarykey, the primary key
+ *
  */
 public class HibernateCrudServiceDAO implements CrudServiceDAO
 {
@@ -81,29 +79,18 @@ public class HibernateCrudServiceDAO implements CrudServiceDAO
     }
 
     @SuppressWarnings("unchecked")
-    public <T> T findUniqueWithNamedQuery(String queryName, Map<String, Object> params)
-    {
+    public <T> T findUniqueWithNamedQuery(String queryName, Map<String, Object> params) {
         Set<Entry<String, Object>> rawParameters = params.entrySet();
         Query query = session.getNamedQuery(queryName);
 
-        for (Entry<String, Object> entry : rawParameters)
-        {
+        for (Entry<String, Object> entry : rawParameters) {
             query.setParameter(entry.getKey(), entry.getValue());
 
         }
         return (T) query.uniqueResult();
     }
 
-	@Override
-	public <T> T findRandom(Class<T> type) {
-		T random = null;
-		try {
-			List<T> list = session.createCriteria(type).list();
-			Random rand = new Random();
-			random = list.get(rand.nextInt(list.size()));
-		} catch (Exception e) {
-			//I have a feeling we might get IndexOutOfBounds here
-		}
-		return random;
-	}
+    public <T> T findAll() {
+        return null;
+    }
 }

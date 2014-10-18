@@ -2,11 +2,13 @@ package com.askr.hackathon.services;
 
 import java.io.IOException;
 
+import com.askr.hackathon.dal.HibernateModule;
 import org.apache.tapestry5.*;
 import org.apache.tapestry5.ioc.MappedConfiguration;
 import org.apache.tapestry5.ioc.OrderedConfiguration;
 import org.apache.tapestry5.ioc.ServiceBinder;
 import org.apache.tapestry5.ioc.annotations.Local;
+import org.apache.tapestry5.ioc.annotations.SubModule;
 import org.apache.tapestry5.services.Request;
 import org.apache.tapestry5.services.RequestFilter;
 import org.apache.tapestry5.services.RequestHandler;
@@ -17,6 +19,7 @@ import org.slf4j.Logger;
  * This module is automatically included as part of the Tapestry IoC Registry, it's a good place to
  * configure and extend Tapestry, or to place your own service definitions.
  */
+@SubModule({HibernateModule.class})
 public class AppModule
 {
     public static void bind(ServiceBinder binder)
