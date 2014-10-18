@@ -18,19 +18,11 @@
 
         <div class="message_stream">
             <ul>
-                <!--
-                            <t:loop source="messages" value="sms" >
-                -->
-                <li class="message_card">
-                    <p>This is a test message</p>
-                </li>
-                <li class="message_card">
-                    <p>This is a test message</p>
-                </li>
-
-                <!--
-                            </t:loop>
-                -->
+                <t:loop source="messageStream" value="sms" >
+                    <li class="message_card">
+                        <p>${sms.reply}</p>
+                    </li>
+                </t:loop>
             </ul>
         </div>
 
