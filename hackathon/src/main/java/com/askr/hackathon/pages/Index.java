@@ -32,7 +32,7 @@ public class Index
         return new Date();
     }
 
-    void onActionFromIncrement()
+    /*void onActionFromIncrement()
     {
         alertManager.info("Increment clicked");
 
@@ -46,5 +46,5 @@ public class Index
         alertManager.info("Increment (via Ajax) clicked");
 
         return zone;
-    }
+    }*/
 }
