@@ -1,15 +1,39 @@
 package com.askr.hackathon.pages;
 
+import com.askr.hackathon.dal.CrudServiceDAO;
+import com.askr.hackathon.entities.MessageEntity;
 import org.apache.tapestry5.Link;
+import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.annotations.RequestParameter;
-import org.apache.tapestry5.internal.services.ResponseImpl;
-import org.apache.tapestry5.services.Response;
+import org.apache.tapestry5.ioc.annotations.Inject;
+import org.apache.tapestry5.util.TextStreamResponse;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.xml.ws.Response;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.security.Principal;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Enumeration;
+import java.util.Locale;
+import java.util.Map;
 
 /**
  * Created by jamessharman on 18/10/2014.
  */
 public class Inbound {
+
+
+    @Inject
+    private CrudServiceDAO dao;
 
     @Property
     private String smsType;
@@ -42,7 +66,7 @@ public class Inbound {
     @Property
     private String smsConcatPart;
 
-    public void onActivate( @RequestParameter( value = "type")   String smsType,
+    public StreamResponse onActivate( @RequestParameter( value = "type")   String smsType,
                             @RequestParameter( value = "to")     String smsToNumber,
                             @RequestParameter( value = "msisdn") String smsSenderId,
                             @RequestParameter( value = "messageId") String smsMessageId,
@@ -63,7 +87,17 @@ public class Inbound {
         this.smsConcatTotal = smsConcatTotal;
         this.smsConcatPart = smsConcatPart;
 
-        //return new ResponseImpl()
+        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD HH:MM:SS");
+        try {
+            Date timestampParse = sdf.parse(smsTimestamp);
+            MessageEntity ms = new MessageEntity( smsSenderId, timestampParse.getTime(), smsText );
+            dao.create( ms );
+
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return new TextStreamResponse("text/plain", "" );
     }
 
 }
