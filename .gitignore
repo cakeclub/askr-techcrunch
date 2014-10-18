@@ -2,10 +2,10 @@
 *.class
 
 # Target Folder
-root/target/*
+hackathon/target/*
 
-root/.project
-root/.classpath
-root/.settings/*
-root/.idea
-root/*.iml
+hackathon/.project
+hackathon/.classpath
+hackathon/.settings/*
+hackathon/.idea/*
+hackathon/*.iml
