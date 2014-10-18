@@ -1,0 +1,62 @@
+<html t:type="layout" title="hackathon Index"
+      t:sidebarTitle="Framework Version"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+<!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
+
+<p>${message:greeting}</p>
+
+<p>The current time is: <strong>${currentTime}</strong></p>
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <form class="form-horizontal well" t:type="form" t:id="messageForm">
+            <fieldset>
+                <t:label for="number"/>:
+                <input t:type="TextField" t:id="number" size="30"/>
+                <br/>
+                <t:label for="time"/>:
+                <input t:type="TextField" t:id="time" size="30"/>
+                <br/>
+                <t:label for="message"/>:
+                <input t:type="TextField" t:id="message" size="30"/>
+                <br/>
+                <input type="submit" value="Login"/>
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<!-- A Zone is a component that can be updated in place, triggered by other components. -->
+<t:zone t:id="zone">
+    <p>
+        You have clicked the link <strong>${clickCount}</strong> times.
+    </p>
+
+    <p>
+        [
+        <t:actionlink t:id="increment">increment</t:actionlink>
+        ]
+        &nbsp;
+        [
+        <t:actionlink t:id="incrementAjax" zone="^">increment (via Ajax)</t:actionlink>
+        ]
+    </p>
+
+</t:zone>
+
+<p:sidebar>
+    <p>
+        You are running Tapestry version <strong>${tapestryVersion}</strong>.
+    </p>
+
+
+    <p>
+        [
+        <t:pagelink page="Index">refresh page</t:pagelink>
+        ]
+    </p>
+</p:sidebar>
+
+</html>
