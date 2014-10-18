@@ -6,6 +6,7 @@ import java.util.List;
 import com.askr.hackathon.dal.CrudServiceDAO;
 import com.askr.hackathon.entities.MessageEntity;
 import com.askr.hackathon.tools.TextReplyer;
+import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.ioc.annotations.*;
 import org.apache.tapestry5.corelib.components.*;
@@ -26,7 +27,7 @@ public class Index
     private CrudServiceDAO dao;
 
     @InjectComponent
-    private Zone zone;
+    private Zone msg_zone;
 
     @Persist
     @Property
@@ -40,6 +41,25 @@ public class Index
 
     private List<MessageEntity> messageStream;
 
+    @Property
+    private String replyMsg;
+
+    @Component
+    private Form replyForm;
+
+    @Persist
+    private MessageEntity selectedSMS;
+
+    public Object onSuccess()
+    {
+        saveReply(selectedSMS, replyMsg);
+        return msg_zone;
+    }
+
+    public void onActivate() {
+        messageStream = dao.findWithNamedQuery(MessageEntity.ALL);
+    }
+
     public Date getCurrentTime()
     {
         return new Date();
@@ -50,16 +70,18 @@ public class Index
     }
 
     public List<MessageEntity> getMessageStream() {
-        //return messageStream;
-        return dao.findWithNamedQuery(MessageEntity.ALL);
+        return messageStream;
     }
 
-    public void saveReply(String id, String reply) {
-        MessageEntity messageEntity = dao.find(MessageEntity.class, id);
-        messageEntity.setTimeOut(new Date().getTime());
-        messageEntity.setReply(reply);
-        dao.update(messageEntity);
-        TextReplyer.sendMessage(reply, messageEntity.getPhoneNumber());
+    public void saveReply(MessageEntity entity, String reply) {
+        entity.setTimeOut(new Date().getTime());
+        entity.setReply(reply);
+        dao.update(entity);
+        TextReplyer.sendMessage(reply, entity.getPhoneNumber());
+    }
+
+    public void onActionFromViewThread(MessageEntity sms) {
+        this.selectedSMS = sms;
     }
 
 }

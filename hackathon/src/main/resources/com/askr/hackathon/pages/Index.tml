@@ -14,14 +14,16 @@
     </p:sidebar>
 
     <!-- A Zone is a component that can be updated in place, triggered by other components. -->
-    <t:zone t:id="zone">
+    <t:zone t:id="msg_zone">
 
         <div class="message_stream">
             <ul>
                 <t:loop source="messageStream" value="sms" >
-                    <li class="message_card">
-                        <p>${sms.message}</p>
-                    </li>
+                    <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
+                        <li class="message_card">
+                            <p>${sms.message}</p>
+                        </li>
+                    </t:actionlink>
                 </t:loop>
             </ul>
         </div>
@@ -33,6 +35,13 @@
             <li class="m_inbound"> My Internet's not working </li>
             <li class="m_outbound"> Have you tried turning off and on?</li>
         </ul>
+
+        <form t:type="form" t:id="replyForm">
+            <t:label for="ReplyInput"/>:
+            <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
+            <br/>
+            <input type="submit" value="Reply Form"/>
+        </form>
     </div>
 
 </html>
