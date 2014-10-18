@@ -23,6 +23,24 @@
             <version>${tapestry-release-version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-hibernate</artifactId>
+            <version>${tapestry-release-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>1.8.0.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tapestry</groupId>
+            <artifactId>tapestry-beanvalidator</artifactId>
+            <version>${tapestry-release-version}</version>
+        </dependency>
+
         <!-- Uncomment this to add support for file uploads:
 
          <dependency>

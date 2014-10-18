@@ -7,5 +7,5 @@ hackathon/target/*
 hackathon/.project
 hackathon/.classpath
 hackathon/.settings/*
-hackathon/.idea
+hackathon/.idea/*
 hackathon/*.iml
