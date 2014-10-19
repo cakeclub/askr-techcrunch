@@ -10,10 +10,11 @@
             <t:pagelink page="Index">refresh page</t:pagelink>
         </p>
     </div>
-
+    <div class="col-md-8">
     <!-- A Zone is a component that can be updated in place, triggered by other components. -->
+    <t:zone t:id="overallZone">
     <div class="col-md-4">
-        <t:zone t:id="msg_zone">
+        <t:zone t:id="msg_zone" id="msg_zone">
             <div class="message_stream">
                 <ul>
                     <t:loop source="messageStream" value="sms" >
@@ -49,14 +50,13 @@
     </div>
 
     <div class="col-md-4">
+        <t:zone t:id="thread_zone" id="thread_zone">
         <div class="thread_stream">
             <ul>
-                <t:zone t:id="thread_zone">
-                    <t:loop source="threadStream" value="threadSMS" >
-                        <li class="m_inbound"> ${threadSMS.message} </li>
-                        <li class="m_outbound"> ${threadSMS.reply}</li>
-                    </t:loop>
-                </t:zone>
+                <t:loop source="threadStream" value="threadSMS" >
+                    <li class="m_inbound"> ${threadSMS.message} </li>
+                    <li class="m_outbound"> ${threadSMS.reply}</li>
+                </t:loop>
             </ul>
         </div>
         <t:if test="smsSelected">
@@ -65,6 +65,9 @@
                 <input type="submit" value="Reply" class="btn btn-default navbar-btn"/>
             </form>
         </t:if>
+        </t:zone>
+    </div>
+    </t:zone>
     </div>
 </div>
 </html>

@@ -12,6 +12,8 @@ import org.apache.tapestry5.ioc.annotations.*;
 import org.apache.tapestry5.corelib.components.*;
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.alerts.AlertManager;
+import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.services.ajax.AjaxResponseRenderer;
 
 /**
  * Start page of application hackathon.
@@ -31,6 +33,9 @@ public class Index
 
     @InjectComponent
     private Zone thread_zone;
+
+    @InjectComponent
+    private Zone overallZone;
 
     @Persist
     @Property
@@ -57,6 +62,12 @@ public class Index
     @Component
     private Form replyForm;
 
+    @Inject
+    private Request request;
+
+    @Inject
+    private AjaxResponseRenderer ajaxResponseRenderer;
+
     @Persist
     private MessageEntity selectedSMS;
 
@@ -67,10 +78,9 @@ public class Index
     @Persist
     private Boolean smsSelected;
 
-    public Object onSuccess()
-    {
+    public Object onSuccess() {
         saveReply(selectedSMS, replyMsg);
-        return msg_zone;
+        return overallZone;
     }
 
     public void onActivate() {
@@ -101,13 +111,15 @@ public class Index
         entity.setReply(reply);
         dao.update(entity);
         TextReplyer.sendMessage(reply, entity.getPhoneNumber());
+        selectedSMS = null;
+        smsSelected = false;
     }
 
-    public Object onActionFromViewThread(MessageEntity sms) {
+    public void onActionFromViewThread(MessageEntity sms) {
         this.smsSelected = true;
         this.selectedSMS = sms;
         this.threadStream = getThreadByNumber(sms.getPhoneNumber());
-        return thread_zone;
+        ajaxResponseRenderer.addRender("msg_zone", msg_zone).addRender("thread_zone", thread_zone);
     }
 
     public List<MessageEntity> getThreadByNumber(String number) {
@@ -121,7 +133,4 @@ public class Index
     public int getSMSCount() {
         return messageStream.size();
     }
-
-
-
 }

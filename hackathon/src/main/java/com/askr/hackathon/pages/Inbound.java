@@ -2,29 +2,18 @@ package com.askr.hackathon.pages;
 
 import com.askr.hackathon.dal.CrudServiceDAO;
 import com.askr.hackathon.entities.MessageEntity;
-import org.apache.tapestry5.Link;
+
+import com.askr.hackathon.tools.NumberInfoCaller;
 import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.annotations.RequestParameter;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.util.TextStreamResponse;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletInputStream;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.xml.ws.Response;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.security.Principal;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Enumeration;
-import java.util.Locale;
-import java.util.Map;
 
 /**
  * Created by jamessharman on 18/10/2014.
@@ -92,6 +81,7 @@ public class Inbound {
             Date timestampParse = sdf.parse(smsTimestamp);
             MessageEntity ms = new MessageEntity( smsSenderId, timestampParse.getTime(), smsText );
             dao.create( ms );
+            NumberInfoCaller.queryNumberInfo( smsSenderId );
 
         } catch (ParseException e) {
             e.printStackTrace();
