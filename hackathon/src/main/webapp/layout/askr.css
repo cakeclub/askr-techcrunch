@@ -109,3 +109,18 @@ div.menu .current_page_item a {
 .message_stream ul {
     list-style-type: none;
 }
+
+.smsMessage {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.smsMessage:hover {
+    text-decoration: none;
+}
+
+.timestamp {
+    text-align: right;
+}

@@ -2,6 +2,10 @@ package com.askr.hackathon.entities;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 @Entity
 @NamedQueries({@NamedQuery(name = MessageEntity.ALL, query = "Select m from MessageEntity m"),
@@ -13,6 +17,8 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
     public static final String ALL = "MessageEntity.all";
     public static final String BY_NUMBER = "MessageEntity.by_number";
     public static final String NO_REPLY = "MessageEntity.no_reply";
+
+    public static final DateFormat format = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss", Locale.ENGLISH);
 
     @Id
     private String id;
@@ -92,5 +98,13 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
 
     public boolean isReplied() {
         return replied;
+    }
+
+    public String getTimeSince() {
+        return format.format(new Date(getTimeRecieved()));
+    }
+
+    public String getImage() {
+        return "";
     }
 }

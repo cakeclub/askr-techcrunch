@@ -20,11 +20,15 @@
                         <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
                             <li>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Title</h3>
+                                    <div class="panel-body smsMessage">
+                                        <img width="150" height="150" src="${context:layout/images/tv.png}" /> ${sms.message}
                                     </div>
-                                    <div class="panel-body">
-                                        ${sms.message}
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <div class="col-md-6"> ${sms.phoneNumber}</div>
+                                            <div class="col-md-6 timestamp"> ${sms.TimeSince}</div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </li>
