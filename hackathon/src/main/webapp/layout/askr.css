@@ -98,7 +98,8 @@ div.menu .current_page_item a {
 .m_outbound {
     list-style-type: none;
     margin:10px;
-    color:#C0C0C0
+    color:#C0C0C0;
+    text-align: right;
 }
 
 #sidebar {
@@ -135,4 +136,12 @@ div.menu .current_page_item a {
 
 .redbg {
     background-color: #f2dede;
+}
+
+.removeLeft {
+    margin-left: 0;
+}
+.carrier {
+    font-size: 18px;
+    font-weight: bold;
 }

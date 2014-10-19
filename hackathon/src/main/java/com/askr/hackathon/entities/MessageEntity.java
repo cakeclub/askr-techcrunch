@@ -159,10 +159,6 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         return format.format(new Date(getTimeRecieved()));
     }
 
-    public String getImage() {
-        return "context:layout/images/tv.png";
-    }
-
     public String getSentimentColour() {
         if (getSentiment().equals(QuestionSentiment.ANGRY))
             return "redbg";
@@ -170,5 +166,32 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
             return "greenbg";
         else
             return "";
+    }
+
+    public String getCatSrc() {
+        if (getCategory().equals(QuestionCategory.TV))
+            return "tv";
+        else if (getCategory().equals(QuestionCategory.BROADBAND))
+            return "broadband";
+        else if (getCategory().equals(QuestionCategory.PHONE))
+            return "phone";
+        else if (getCategory().equals(QuestionCategory.MULTI))
+            return "multi";
+        else
+            return "other";
+    }
+
+    public String getAvailability() {
+        if (isAvailable())
+            return "online";
+        else
+            return "offline";
+    }
+
+    public String getValidity() {
+        if (isValid())
+            return "tick";
+        else
+            return "cross";
     }
 }

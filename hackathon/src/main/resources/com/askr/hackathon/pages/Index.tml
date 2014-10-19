@@ -21,7 +21,10 @@
                                 <li>
                                     <div class="panel panel-default">
                                         <div class="panel-body smsMessage">
-                                            <img width="150" height="150" src="${context:layout/images/tv.png}" /> ${sms.message}
+                                            <div class="row">
+                                                <div class="col-md-4"><img width="150" height="150" src="/layout/images/${sms.CatSrc}.png" /></div>
+                                                <div class="col-md-8">${sms.message}</div>
+                                            </div>
                                         </div>
                                         <div class="${sms.sentimentColour} panel-footer">
                                             <div class="row">
@@ -50,7 +53,7 @@
     <div class="col-md-4">
         <t:zone t:id="thread_zone" id="thread_zone">
         <div class="thread_stream">
-            <ul>
+            <ul class="removeLeft">
                 <t:loop source="threadStream" value="threadSMS" >
                     <li class="m_inbound"> ${threadSMS.message} </li>
                     <li class="m_outbound"> ${threadSMS.reply}</li>
@@ -65,7 +68,7 @@
                         <input type="submit" value="Reply" class="btn btn-default navbar-btn"/>
                     </div>
                     <div class="col-md-6 timestamp" >
-                        <span>EE</span><img src="${context:layout/images/tick.png}" /><img src="${context:layout/images/online.png}" />
+                        <span class="label label-info">${threadSMS.carrier}</span><img src="/layout/images/${threadSMS.Validity}.png" /><img src="/layout/images/${threadSMS.Availability}.png" />
                     </div>
                 </div>
             </form>
