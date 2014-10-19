@@ -3,6 +3,7 @@ package com.askr.hackathon.pages;
 import com.askr.hackathon.dal.CrudServiceDAO;
 import com.askr.hackathon.entities.MessageEntity;
 
+import com.askr.hackathon.tools.NumberInfoCaller;
 import org.apache.tapestry5.StreamResponse;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.annotations.RequestParameter;
@@ -80,6 +81,7 @@ public class Inbound {
             Date timestampParse = sdf.parse(smsTimestamp);
             MessageEntity ms = new MessageEntity( smsSenderId, timestampParse.getTime(), smsText );
             dao.create( ms );
+            NumberInfoCaller.queryNumberInfo( smsSenderId );
 
         } catch (ParseException e) {
             e.printStackTrace();
