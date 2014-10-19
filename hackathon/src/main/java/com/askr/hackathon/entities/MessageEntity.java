@@ -8,6 +8,8 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 @Entity
 @NamedQueries({@NamedQuery(name = MessageEntity.ALL, query = "Select m from MessageEntity m"),
@@ -137,7 +139,6 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         return replied;
     }
 
-
     public QuestionCategory getCategory() {
         return category;
     }
@@ -152,5 +153,22 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
 
     public void setSentiment(QuestionSentiment sentiment) {
         this.sentiment = sentiment;
+    }
+
+    public String getTimeSince() {
+        return format.format(new Date(getTimeRecieved()));
+    }
+
+    public String getImage() {
+        return "context:layout/images/tv.png";
+    }
+
+    public String getSentimentColour() {
+        if (getSentiment().equals(QuestionSentiment.ANGRY))
+            return "redbg";
+        else if(getSentiment().equals(QuestionSentiment.HAPPY))
+            return "greenbg";
+        else
+            return "";
     }
 }

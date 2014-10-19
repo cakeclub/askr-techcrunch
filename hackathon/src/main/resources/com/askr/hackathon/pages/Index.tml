@@ -10,42 +10,40 @@
             <t:pagelink page="Index">refresh page</t:pagelink>
         </p>
     </div>
-    <div class="col-md-8">
     <!-- A Zone is a component that can be updated in place, triggered by other components. -->
-    <t:zone t:id="overallZone">
-    <div class="col-md-4">
-        <t:zone t:id="msg_zone" id="msg_zone">
-            <div class="message_stream">
-                <ul>
-                    <t:loop source="messageStream" value="sms" >
-                        <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
-                            <li>
-                                <div class="panel panel-default">
-                                    <div class="panel-body smsMessage">
-                                        <img width="150" height="150" src="${context:layout/images/tv.png}" /> ${sms.message}
-                                    </div>
-                                    <div class="panel-footer">
-                                        <div class="row">
-                                            <div class="col-md-6"> ${sms.phoneNumber}</div>
-                                            <div class="col-md-6 timestamp"> ${sms.TimeSince}</div>
-
+        <t:zone t:id="overallZone">
+        <div class="col-md-4">
+            <t:zone t:id="msg_zone" id="msg_zone">
+                <div class="message_stream">
+                    <ul>
+                        <t:loop source="messageStream" value="sms" >
+                            <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
+                                <li>
+                                    <div class="panel panel-default">
+                                        <div class="panel-body smsMessage">
+                                            <img width="150" height="150" src="${context:layout/images/tv.png}" /> ${sms.message}
+                                        </div>
+                                        <div class="${sms.sentimentColour} panel-footer">
+                                            <div class="row">
+                                                <div class="col-md-6"> ${sms.phoneNumber}</div>
+                                                <div class="col-md-6 timestamp">${sms.TimeSince}</div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </li>
-                        </t:actionlink>
-                        <p:empty>
-                            <li>
-                                <div class="panel panel-default">
-                                    <div class="panel-body">
-                                        Nothing yet
+                                </li>
+                            </t:actionlink>
+                            <p:empty>
+                                <li>
+                                    <div class="panel panel-default">
+                                        <div class="panel-body">
+                                            Nothing yet
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                        </p:empty>
-                    </t:loop>
-                </ul>
-            </div>
+                                </li>
+                            </p:empty>
+                        </t:loop>
+                    </ul>
+                </div>
         </t:zone>
     </div>
 
@@ -62,12 +60,18 @@
         <t:if test="smsSelected">
             <form t:type="form" t:id="replyForm">
                 <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" placeholder="Message..." size="30" class="form-control"/>
-                <input type="submit" value="Reply" class="btn btn-default navbar-btn"/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="submit" value="Reply" class="btn btn-default navbar-btn"/>
+                    </div>
+                    <div class="col-md-6 timestamp" >
+                        <span>EE</span><img src="${context:layout/images/tick.png}" /><img src="${context:layout/images/online.png}" />
+                    </div>
+                </div>
             </form>
         </t:if>
         </t:zone>
     </div>
     </t:zone>
-    </div>
 </div>
 </html>
