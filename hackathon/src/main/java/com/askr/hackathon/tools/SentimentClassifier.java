@@ -1,6 +1,11 @@
 package com.askr.hackathon.tools;
 
 import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashSet;
 
 /**
  * Created by Tom on 19/10/2014.
@@ -8,6 +13,43 @@ import java.util.ArrayList;
 
 public class SentimentClassifier {
 
+    protected HashSet negativeWords;
+
+    protected HashSet<String> buildWordSet( String csvFile ){
+        HashSet<String> wordSet = new HashSet<String>();
+        BufferedReader br = null;
+        String line = "";
+        String cvsSplitBy = ",";
+        try {
+
+            br = new BufferedReader(new FileReader(csvFile));
+            while ((line = br.readLine()) != null) {
+
+                // use comma as separator
+                for( String word : line.split(cvsSplitBy) ) {
+                    wordSet.add(word);
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return wordSet;
+    }
+
+    public SentimentClassifier() {
+        this.negativeWords = buildWordSet( "C:/Users/Tom/Documents/negativewords.csv" );
+    }
 
     public QuestionCategory getQuestionCategory( String messageText ){
         ArrayList<QuestionCategory> categories = new ArrayList<QuestionCategory>();
@@ -41,6 +83,11 @@ public class SentimentClassifier {
         return false;
     }
     private boolean isAngry( String messageText ) {
+        for (String word : messageText.split( " " )){
+            if ( this.negativeWords.contains( word.toLowerCase() ) ){
+                return true;
+            }
+        }
         return false;
     }
 
