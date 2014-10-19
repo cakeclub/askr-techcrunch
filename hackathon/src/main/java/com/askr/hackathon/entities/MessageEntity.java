@@ -6,6 +6,10 @@ import com.askr.hackathon.tools.SentimentClassifier;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 @Entity
 @NamedQueries({@NamedQuery(name = MessageEntity.ALL, query = "Select m from MessageEntity m"),
@@ -17,6 +21,8 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
     public static final String ALL = "MessageEntity.all";
     public static final String BY_NUMBER = "MessageEntity.by_number";
     public static final String NO_REPLY = "MessageEntity.no_reply";
+
+    public static final DateFormat format = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss", Locale.ENGLISH);
 
     @Id
     private String id;
@@ -133,7 +139,6 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         return replied;
     }
 
-
     public QuestionCategory getCategory() {
         return category;
     }
@@ -148,5 +153,45 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
 
     public void setSentiment(QuestionSentiment sentiment) {
         this.sentiment = sentiment;
+    }
+
+    public String getTimeSince() {
+        return format.format(new Date(getTimeRecieved()));
+    }
+
+    public String getSentimentColour() {
+        if (getSentiment().equals(QuestionSentiment.ANGRY))
+            return "redbg";
+        else if(getSentiment().equals(QuestionSentiment.HAPPY))
+            return "greenbg";
+        else
+            return "";
+    }
+
+    public String getCatSrc() {
+        if (getCategory().equals(QuestionCategory.TV))
+            return "tv";
+        else if (getCategory().equals(QuestionCategory.BROADBAND))
+            return "broadband";
+        else if (getCategory().equals(QuestionCategory.PHONE))
+            return "phone";
+        else if (getCategory().equals(QuestionCategory.MULTI))
+            return "multi";
+        else
+            return "other";
+    }
+
+    public String getAvailability() {
+        if (isAvailable())
+            return "online";
+        else
+            return "offline";
+    }
+
+    public String getValidity() {
+        if (isValid())
+            return "tick";
+        else
+            return "cross";
     }
 }

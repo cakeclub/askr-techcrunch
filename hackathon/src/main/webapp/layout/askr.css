@@ -98,7 +98,8 @@ div.menu .current_page_item a {
 .m_outbound {
     list-style-type: none;
     margin:10px;
-    color:#C0C0C0
+    color:#C0C0C0;
+    text-align: right;
 }
 
 #sidebar {
@@ -108,4 +109,39 @@ div.menu .current_page_item a {
 
 .message_stream ul {
     list-style-type: none;
+}
+
+.smsMessage {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+}
+
+.smsMessage:hover {
+    text-decoration: none;
+}
+
+.timestamp {
+    text-align: right;
+}
+
+.greenbg {
+    background-color: #dff0d8;
+}
+
+.redbg {
+    background-color: #f2dede;
+}
+
+.redbg {
+    background-color: #f2dede;
+}
+
+.removeLeft {
+    margin-left: 0;
+}
+.carrier {
+    font-size: 18px;
+    font-weight: bold;
 }
