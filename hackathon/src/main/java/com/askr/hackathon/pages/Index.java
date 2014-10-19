@@ -13,8 +13,6 @@ import org.apache.tapestry5.corelib.components.*;
 import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.alerts.AlertManager;
 
-
-
 /**
  * Start page of application hackathon.
  */
@@ -62,6 +60,13 @@ public class Index
     @Persist
     private MessageEntity selectedSMS;
 
+    public Boolean getSmsSelected() {
+        return smsSelected;
+    }
+
+    @Persist
+    private Boolean smsSelected;
+
     public Object onSuccess()
     {
         saveReply(selectedSMS, replyMsg);
@@ -99,6 +104,7 @@ public class Index
     }
 
     public Object onActionFromViewThread(MessageEntity sms) {
+        this.smsSelected = true;
         this.selectedSMS = sms;
         this.threadStream = getThreadByNumber(sms.getPhoneNumber());
         return thread_zone;
@@ -111,5 +117,11 @@ public class Index
         Collections.sort(withNamedQuery);
         return withNamedQuery;
     }
+
+    public int getSMSCount() {
+        return messageStream.size();
+    }
+
+
 
 }

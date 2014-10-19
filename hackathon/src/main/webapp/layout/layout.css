@@ -70,7 +70,7 @@ a:hover {
 /* Header */
 
 div.header {
-    height: 42px;
+    height: 50px;
 }
 
 div.logo h1, div.logo p {
@@ -80,6 +80,7 @@ div.logo h1, div.logo p {
 
 div.logo h1 {
     padding: 0px 0 0 40px;
+    margin-top: 0;
 }
 
 div.logo p {
@@ -92,7 +93,7 @@ div.logo p {
 
 div.logo a {
     text-decoration: none;
-    color: #D0C7A6;
+    color: #eee5e7;
 }
 
 div.menu {

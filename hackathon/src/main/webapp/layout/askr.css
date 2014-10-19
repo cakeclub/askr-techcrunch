@@ -1,7 +1,9 @@
 /* Header */
 
 div.header {
-    height: 42px;
+    height: 50px;
+    background-color: #333333;
+    margin-bottom: 30px;
 }
 
 div.logo h1, div.logo p {
@@ -11,6 +13,7 @@ div.logo h1, div.logo p {
 
 div.logo h1 {
     padding: 0px 0 0 40px;
+    margin-top: 5px;
 }
 
 div.logo p {
@@ -23,7 +26,7 @@ div.logo p {
 
 div.logo a {
     text-decoration: none;
-    color: #D0C7A6;
+    color: #ebeaef;
 }
 
 div.menu {
@@ -96,4 +99,13 @@ div.menu .current_page_item a {
     list-style-type: none;
     margin:10px;
     color:#C0C0C0
+}
+
+#sidebar {
+    margin-left: 10px;
+    text-align: right;
+}
+
+.message_stream ul {
+    list-style-type: none;
 }

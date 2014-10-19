@@ -2,51 +2,65 @@
       t:sidebarTitle="Framework Version"
       xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
       xmlns:p="tapestry:parameter">
-        <!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
-
-    <div class="row">
-        <div class="col-md-2">
-            <p>All Messages (2)</p>
-            <p>
-                [
-                <t:pagelink page="Index">refresh page</t:pagelink>
-                ]
-            </p>
-        </div>
-
-        <!-- A Zone is a component that can be updated in place, triggered by other components. -->
-        <div class="col-md-4">
-            <t:zone t:id="msg_zone">
-                <div class="message_stream">
-                    <ul>
-                        <t:loop source="messageStream" value="sms">
-                            <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
-                                <li class="message_card">
-                                    <p>${sms.message}</p>
-                                </li>
-                            </t:actionlink>
-                            <p:empty>
-                                <p>Nothing yet</p>
-                            </p:empty>
-                        </t:loop>
-                    </ul>
-                </div>
-            </t:zone>
-        </div>
-
-        <div id="message_thread" class="col-md-4">
-            <ul>
-                <li class="m_inbound"> My Internet's not working </li>
-                <li class="m_outbound"> Have you tried turning off and on?</li>
-            </ul>
-
-            <form t:type="form" t:id="replyForm">
-                <t:label for="ReplyInput"/>:
-                <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
-                <br/>
-                <input type="submit" value="Reply"/>
-            </form>
-        </div>
+<!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
+<div class="row">
+    <div id="sidebar" class="col-md-2">
+        <p>All Messages <span class="badge">${SMSCount}</span></p>
+        <p>
+            <t:pagelink page="Index">refresh page</t:pagelink>
+        </p>
     </div>
 
+    <!-- A Zone is a component that can be updated in place, triggered by other components. -->
+    <div class="col-md-4">
+        <t:zone t:id="msg_zone">
+            <div class="message_stream">
+                <ul>
+                    <t:loop source="messageStream" value="sms" >
+                        <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
+                            <li>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">Title</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        ${sms.message}
+                                    </div>
+                                </div>
+                            </li>
+                        </t:actionlink>
+                        <p:empty>
+                            <li>
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        Nothing yet
+                                    </div>
+                                </div>
+                            </li>
+                        </p:empty>
+                    </t:loop>
+                </ul>
+            </div>
+        </t:zone>
+    </div>
+
+    <div class="col-md-4">
+        <div class="thread_stream">
+            <ul>
+                <t:zone t:id="thread_zone">
+                    <t:loop source="threadStream" value="threadSMS" >
+                        <li class="m_inbound"> ${threadSMS.message} </li>
+                        <li class="m_outbound"> ${threadSMS.reply}</li>
+                    </t:loop>
+                </t:zone>
+            </ul>
+        </div>
+        <t:if test="smsSelected">
+            <form t:type="form" t:id="replyForm">
+                <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" placeholder="Message..." size="30" class="form-control"/>
+                <input type="submit" value="Reply" class="btn btn-default navbar-btn"/>
+            </form>
+        </t:if>
+    </div>
+</div>
 </html>
