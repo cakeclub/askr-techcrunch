@@ -40,7 +40,7 @@ public class NumberInfo {
                                       @RequestParameter( value = "valid", allowBlank = true)       String isValid,
                                       @RequestParameter( value = "number")      String phoneNumber,
                                       @RequestParameter( value = "status")      String status,
-                                      @RequestParameter( value = "carrier", allowBlank = true ) String carrier ) {
+                                      @RequestParameter( value = "carrier_network_name", allowBlank = true ) String carrier ) {
 
         this.isAvailable = isAvailable;
         this.isValid = isValid;
@@ -48,25 +48,24 @@ public class NumberInfo {
         this.status = status;
         this.phoneNumber = phoneNumber;
 
-        if( Integer.parseInt( this.status ) == 0 ){
+        if( "0".equals( this.status ) ){
 
             Map<String, Object> params = new HashMap<String, Object>();
             params.put( "number", this.phoneNumber );
 
-            List<MessageEntity> messages = dao.findWithNamedQuery( MessageEntity.BY_NUMBER, params );
-
-            if( this.isAvailable == null ){
+            if( "reachable".equals(this.isAvailable) ){
                 this.isAvailable = "true";
+            }else{
+                this.isAvailable = "false";
             }
 
-            if( this.isValid == null ){
+            if( "valid".equals(this.isValid) ){
                 this.isValid = "true";
+            }else{
+                this.isValid = "false";
             }
 
-            if( this.carrier == null ){
-                this.carrier = "Unknown";
-            }
-
+            List<MessageEntity> messages = dao.findWithNamedQuery( MessageEntity.BY_NUMBER, params );
 
             for( MessageEntity message: messages  ){
                 message.setAvailable( Boolean.parseBoolean(this.isAvailable) );
