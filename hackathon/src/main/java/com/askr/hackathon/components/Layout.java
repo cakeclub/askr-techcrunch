@@ -1,5 +1,6 @@
 package com.askr.hackathon.components;
 
+//import com.trsvax.bootstrap.annotations.Exclude;
 import org.apache.tapestry5.*;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.ioc.annotations.*;
@@ -9,7 +10,19 @@ import org.apache.tapestry5.SymbolConstants;
 /**
  * Layout component for pages of application hackathon.
  */
-@Import(stylesheet = "context:layout/layout.css")
+//@Import(stylesheet = "context:layout/layout.css")
+
+
+//@Exclude(stylesheet={"core"})  //If you do not want Tapestry CSS
+@Import(stylesheet={
+        "context:layout/bootstrap/bootstrap.css",
+        "context:layout/askr.css"
+        },
+        library={
+                "context:layout/js/bootstrap.js"
+        }
+)
+
 public class Layout
 {
     /**

@@ -4,44 +4,49 @@
       xmlns:p="tapestry:parameter">
         <!-- Most of the page content, including <head>, <body>, etc. tags, comes from Layout.tml -->
 
-    <p:sidebar>
-        <p>All Messages (2)</p>
-        <p>
-            [
-            <t:pagelink page="Index">refresh page</t:pagelink>
-            ]
-        </p>
-    </p:sidebar>
-
-    <!-- A Zone is a component that can be updated in place, triggered by other components. -->
-    <t:zone t:id="msg_zone">
-
-        <div class="message_stream">
-            <ul>
-                <t:loop source="messageStream" value="sms" >
-                    <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
-                        <li class="message_card">
-                            <p>${sms.message}</p>
-                        </li>
-                    </t:actionlink>
-                </t:loop>
-            </ul>
+    <div class="row">
+        <div class="col-md-2">
+            <p>All Messages (2)</p>
+            <p>
+                [
+                <t:pagelink page="Index">refresh page</t:pagelink>
+                ]
+            </p>
         </div>
 
-    </t:zone>
+        <!-- A Zone is a component that can be updated in place, triggered by other components. -->
+        <div class="col-md-4">
+            <t:zone t:id="msg_zone">
+                <div class="message_stream">
+                    <ul>
+                        <t:loop source="messageStream" value="sms">
+                            <t:actionlink t:id="viewThread" context="sms" zone="msg_zone">
+                                <li class="message_card">
+                                    <p>${sms.message}</p>
+                                </li>
+                            </t:actionlink>
+                            <p:empty>
+                                <p>Nothing yet</p>
+                            </p:empty>
+                        </t:loop>
+                    </ul>
+                </div>
+            </t:zone>
+        </div>
 
-    <div id="message_thread">
-        <ul>
-            <li class="m_inbound"> My Internet's not working </li>
-            <li class="m_outbound"> Have you tried turning off and on?</li>
-        </ul>
+        <div id="message_thread" class="col-md-4">
+            <ul>
+                <li class="m_inbound"> My Internet's not working </li>
+                <li class="m_outbound"> Have you tried turning off and on?</li>
+            </ul>
 
-        <form t:type="form" t:id="replyForm">
-            <t:label for="ReplyInput"/>:
-            <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
-            <br/>
-            <input type="submit" value="Reply Form"/>
-        </form>
+            <form t:type="form" t:id="replyForm">
+                <t:label for="ReplyInput"/>:
+                <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
+                <br/>
+                <input type="submit" value="Reply"/>
+            </form>
+        </div>
     </div>
 
 </html>
