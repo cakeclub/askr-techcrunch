@@ -1,9 +1,9 @@
 package com.askr.hackathon.pages;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 import com.askr.hackathon.dal.CrudServiceDAO;
+import com.askr.hackathon.dal.QueryParameters;
 import com.askr.hackathon.entities.MessageEntity;
 import com.askr.hackathon.tools.TextReplyer;
 import org.apache.tapestry5.StreamResponse;
@@ -31,6 +31,9 @@ public class Index
     @InjectComponent
     private Zone msg_zone;
 
+    @InjectComponent
+    private Zone thread_zone;
+
     @Persist
     @Property
     private int clickCount;
@@ -41,7 +44,14 @@ public class Index
     @Property
     private MessageEntity sms;
 
+    @Property
+    private MessageEntity threadSMS;
+
+    @Persist
     private List<MessageEntity> messageStream;
+
+    @Persist
+    private List<MessageEntity> threadStream;
 
     @Property
     private String replyMsg;
@@ -59,7 +69,9 @@ public class Index
     }
 
     public void onActivate() {
-        messageStream = dao.findWithNamedQuery(MessageEntity.ALL);
+        List<MessageEntity> messages = dao.findWithNamedQuery(MessageEntity.NO_REPLY);
+        Collections.sort(messages, Collections.reverseOrder());
+        messageStream = messages;
     }
 
     public Date getCurrentTime()
@@ -75,6 +87,10 @@ public class Index
         return messageStream;
     }
 
+    public List<MessageEntity> getThreadStream() {
+        return threadStream;
+    }
+
     public void saveReply(MessageEntity entity, String reply) {
         entity.setTimeOut(new Date().getTime());
         entity.setReply(reply);
@@ -82,8 +98,18 @@ public class Index
         TextReplyer.sendMessage(reply, entity.getPhoneNumber());
     }
 
-    public void onActionFromViewThread(MessageEntity sms) {
+    public Object onActionFromViewThread(MessageEntity sms) {
         this.selectedSMS = sms;
+        this.threadStream = getThreadByNumber(sms.getPhoneNumber());
+        return thread_zone;
+    }
+
+    public List<MessageEntity> getThreadByNumber(String number) {
+        Map<String, Object> params = new HashMap<String, Object>();
+        params.put("number", number);
+        List<MessageEntity> withNamedQuery = dao.findWithNamedQuery(MessageEntity.BY_NUMBER, params);
+        Collections.sort(withNamedQuery);
+        return withNamedQuery;
     }
 
 }
