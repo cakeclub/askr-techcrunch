@@ -1,10 +1,9 @@
 package com.askr.hackathon.tools;
 
+import com.sun.org.apache.xml.internal.serializer.utils.SerializerMessages_de;
+
+import java.io.*;
 import java.util.ArrayList;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.HashSet;
 
 /**
@@ -14,15 +13,16 @@ import java.util.HashSet;
 public class SentimentClassifier {
 
     protected HashSet negativeWords;
+    protected HashSet happyWords;
 
-    protected HashSet<String> buildWordSet( String csvFile ){
+    protected HashSet<String> buildWordSet( InputStream csvFile ){
         HashSet<String> wordSet = new HashSet<String>();
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
         try {
 
-            br = new BufferedReader(new FileReader(csvFile));
+            br = new BufferedReader(new InputStreamReader(csvFile));
             while ((line = br.readLine()) != null) {
 
                 // use comma as separator
@@ -48,7 +48,8 @@ public class SentimentClassifier {
     }
 
     public SentimentClassifier() {
-        this.negativeWords = buildWordSet( "C:/Users/Tom/Documents/negativewords.csv" );
+        this.negativeWords = buildWordSet(SentimentClassifier.class.getResourceAsStream("negativewords.csv"));
+        this.happyWords = buildWordSet(SentimentClassifier.class.getResourceAsStream("positivewords.csv"));
     }
 
     public QuestionCategory getQuestionCategory( String messageText ){
@@ -77,11 +78,14 @@ public class SentimentClassifier {
     }
 
     private boolean isHappy( String messageText ) {
+        for (String word : messageText.split( " " )){
+            if ( this.happyWords.contains( word.toLowerCase() ) ){
+                return true;
+            }
+        }
         return false;
     }
-    private boolean isImpatient( String messageText ) {
-        return false;
-    }
+
     private boolean isAngry( String messageText ) {
         for (String word : messageText.split( " " )){
             if ( this.negativeWords.contains( word.toLowerCase() ) ){
@@ -96,9 +100,6 @@ public class SentimentClassifier {
         ArrayList<QuestionSentiment> questionSentiments = new ArrayList<QuestionSentiment>();
         if ( isAngry( messageText ) ){
             questionSentiments.add( QuestionSentiment.ANGRY );
-        }
-        if ( isImpatient( messageText ) ){
-            questionSentiments.add( QuestionSentiment.IMPATIENT );
         }
         if ( isHappy( messageText ) ){
             questionSentiments.add( QuestionSentiment.HAPPY );
