@@ -24,24 +24,31 @@
                             <p>${sms.message}</p>
                         </li>
                     </t:actionlink>
+                    <p:empty>
+                        <li class="message_card">
+                            <p>Waiting Messages...</p>
+                        </li>
+                    </p:empty>
                 </t:loop>
             </ul>
         </div>
 
     </t:zone>
 
-    <div id="message_thread">
-        <ul>
-            <li class="m_inbound"> My Internet's not working </li>
-            <li class="m_outbound"> Have you tried turning off and on?</li>
-        </ul>
 
-        <form t:type="form" t:id="replyForm">
-            <t:label for="ReplyInput"/>:
-            <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
-            <br/>
-            <input type="submit" value="Reply Form"/>
-        </form>
-    </div>
-
+            <div class="thread_stream">
+                <ul>
+                    <t:zone t:id="thread_zone">
+                    <t:loop source="threadStream" value="threadSMS" >
+                        <li class="m_inbound"> ${threadSMS.message} </li>
+                        <li class="m_outbound"> ${threadSMS.reply}</li>
+                    </t:loop>
+                    </t:zone>
+                </ul>
+            </div>
+            <form t:type="form" t:id="replyForm">
+                <t:label for="ReplyInput"/>:
+                <input t:type="TextField" t:id="ReplyInput" t:value="replyMsg" size="30"/>
+                <input type="submit" value="Reply Form"/>
+            </form>
 </html>

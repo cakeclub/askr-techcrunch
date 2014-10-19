@@ -29,6 +29,9 @@ public class Index
     @InjectComponent
     private Zone msg_zone;
 
+    @InjectComponent
+    private Zone thread_zone;
+
     @Persist
     @Property
     private int clickCount;
@@ -39,7 +42,14 @@ public class Index
     @Property
     private MessageEntity sms;
 
+    @Property
+    private MessageEntity threadSMS;
+
+    @Persist
     private List<MessageEntity> messageStream;
+
+    @Persist
+    private List<MessageEntity> threadStream;
 
     @Property
     private String replyMsg;
@@ -75,6 +85,10 @@ public class Index
         return messageStream;
     }
 
+    public List<MessageEntity> getThreadStream() {
+        return threadStream;
+    }
+
     public void saveReply(MessageEntity entity, String reply) {
         entity.setTimeOut(new Date().getTime());
         entity.setReply(reply);
@@ -82,8 +96,10 @@ public class Index
         TextReplyer.sendMessage(reply, entity.getPhoneNumber());
     }
 
-    public void onActionFromViewThread(MessageEntity sms) {
+    public Object onActionFromViewThread(MessageEntity sms) {
         this.selectedSMS = sms;
+        this.threadStream = getThreadByNumber(sms.getPhoneNumber());
+        return thread_zone;
     }
 
     public List<MessageEntity> getThreadByNumber(String number) {
