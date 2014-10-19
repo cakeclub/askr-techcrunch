@@ -4,11 +4,15 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@NamedQueries({@NamedQuery(name = MessageEntity.ALL, query = "Select m from MessageEntity m")})
+@NamedQueries({@NamedQuery(name = MessageEntity.ALL, query = "Select m from MessageEntity m"),
+                @NamedQuery(name = MessageEntity.NO_REPLY, query = "Select m from MessageEntity m where m.replied = false"),
+                @NamedQuery(name = MessageEntity.BY_NUMBER, query = "Select m from MessageEntity m where m.phoneNumber = :number")})
 @Table(name = "messages")
-public class MessageEntity implements Serializable {
+public class MessageEntity implements Serializable, Comparable<MessageEntity> {
 
     public static final String ALL = "MessageEntity.all";
+    public static final String BY_NUMBER = "MessageEntity.by_number";
+    public static final String NO_REPLY = "MessageEntity.no_reply";
 
     @Id
     private String id;
@@ -17,12 +21,14 @@ public class MessageEntity implements Serializable {
     private String message;
     private String reply;
     private long timeOut;
+    private boolean replied;
 
     public MessageEntity(String phoneNumber, long timeRecieved, String message) {
         this.phoneNumber = phoneNumber;
         this.message = message;
         this.timeRecieved = timeRecieved;
         this.id = phoneNumber + ":" + String.valueOf(timeRecieved);
+        this.replied = false;
     }
 
     public MessageEntity() {}
@@ -65,6 +71,7 @@ public class MessageEntity implements Serializable {
 
     public void setReply(String reply) {
         this.reply = reply;
+        this.replied = true;
     }
 
     public long getTimeOut() {
@@ -73,5 +80,17 @@ public class MessageEntity implements Serializable {
 
     public void setTimeOut(long timeOut) {
         this.timeOut = timeOut;
+    }
+
+    public int compareTo(MessageEntity o) {
+        return Long.compare(this.getTimeRecieved(), o.getTimeRecieved());
+    }
+
+    public void setReplied(boolean replied) {
+        this.replied = replied;
+    }
+
+    public boolean isReplied() {
+        return replied;
     }
 }
