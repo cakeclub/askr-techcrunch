@@ -22,6 +22,34 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
     private String reply;
     private long timeOut;
     private boolean replied;
+    private boolean valid;
+
+    public boolean isValid() {
+        return valid;
+    }
+
+    public void setValid(boolean valid) {
+        this.valid = valid;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public String getCarrier() {
+        return carrier;
+    }
+
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
+    }
+
+    private boolean available;
+    private String carrier;
 
     public MessageEntity(String phoneNumber, long timeRecieved, String message) {
         this.phoneNumber = phoneNumber;
@@ -29,6 +57,9 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         this.timeRecieved = timeRecieved;
         this.id = phoneNumber + ":" + String.valueOf(timeRecieved);
         this.replied = false;
+        this.valid = true;
+        this.available = true;
+        this.carrier = "NA";
     }
 
     public MessageEntity() {}
