@@ -1,5 +1,9 @@
 package com.askr.hackathon.entities;
 
+import com.askr.hackathon.tools.QuestionCategory;
+import com.askr.hackathon.tools.QuestionSentiment;
+import com.askr.hackathon.tools.SentimentClassifier;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -23,33 +27,10 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
     private long timeOut;
     private boolean replied;
     private boolean valid;
-
-    public boolean isValid() {
-        return valid;
-    }
-
-    public void setValid(boolean valid) {
-        this.valid = valid;
-    }
-
-    public boolean isAvailable() {
-        return available;
-    }
-
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
-
-    public String getCarrier() {
-        return carrier;
-    }
-
-    public void setCarrier(String carrier) {
-        this.carrier = carrier;
-    }
-
     private boolean available;
     private String carrier;
+    private QuestionCategory category;
+    private QuestionSentiment sentiment;
 
     public MessageEntity(String phoneNumber, long timeRecieved, String message) {
         this.phoneNumber = phoneNumber;
@@ -60,6 +41,9 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         this.valid = true;
         this.available = true;
         this.carrier = "NA";
+        SentimentClassifier classifier = new SentimentClassifier();
+        this.category = classifier.getQuestionCategory(message);
+        this.sentiment = classifier.getQuestionSentiment(message);
     }
 
     public MessageEntity() {}
@@ -105,6 +89,30 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
         this.replied = true;
     }
 
+    public boolean isValid() {
+        return valid;
+    }
+
+    public void setValid(boolean valid) {
+        this.valid = valid;
+    }
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public String getCarrier() {
+        return carrier;
+    }
+
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
+    }
+
     public long getTimeOut() {
         return timeOut;
     }
@@ -123,5 +131,22 @@ public class MessageEntity implements Serializable, Comparable<MessageEntity> {
 
     public boolean isReplied() {
         return replied;
+    }
+
+
+    public QuestionCategory getCategory() {
+        return category;
+    }
+
+    public void setCategory(QuestionCategory category) {
+        this.category = category;
+    }
+
+    public QuestionSentiment getSentiment() {
+        return sentiment;
+    }
+
+    public void setSentiment(QuestionSentiment sentiment) {
+        this.sentiment = sentiment;
     }
 }
