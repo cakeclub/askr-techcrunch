@@ -75,8 +75,8 @@ public class Inbound {
         this.smsConcatRef = smsConcatRef;
         this.smsConcatTotal = smsConcatTotal;
         this.smsConcatPart = smsConcatPart;
-
-        SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-DD HH:MM:SS");
+        System.out.println(smsTimestamp);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         try {
             Date timestampParse = sdf.parse(smsTimestamp);
             MessageEntity ms = new MessageEntity( smsSenderId, timestampParse.getTime(), smsText );
