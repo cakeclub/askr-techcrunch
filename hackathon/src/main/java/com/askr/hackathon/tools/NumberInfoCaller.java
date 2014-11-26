@@ -14,7 +14,7 @@ public class NumberInfoCaller {
     public final static String charset = "UTF-8";
     public final static String API_KEY = "935ccbbf";
     public final static String API_SECRET = "0af96623";
-    public final static String CALLBACK = "http://www.handlocker.co.uk/hackathon/NumberInfo";
+    public final static String CALLBACK = "http://www.handlocker.co.uk/demo/NumberInfo";
 
     public static boolean queryNumberInfo(String number) {
         try {
