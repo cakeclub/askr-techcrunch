@@ -1,29 +1,26 @@
-# README #
+## In Brief
+Askr is a system that allows a company to manage and reply to customer support queries received via text. The system uses sentiment analysis and number information to prioritise and highlight incoming messages in a web ui.
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## The Mission
+Poorly managed Customer Support is bad for business
 
-### What is this repository for? ###
+Call centres are costly and scale linearly, one representative can be on the phone to exactly one customer at one time
+Customers hate phoning companies
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+90% of customers cite long call times as their biggest frustration
+45% said offering better service options via mobile would make a difference in their decision to switch.
+Given that neither end of the phone line wants to be there, this was a problem we needed to solve.
 
-### How do I get set up? ###
+## The Technology
+For the user, ease of use was paramount, ideally:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Nothing to download
+Something they already know how to do Clearly, text messaging is the obvious choice.
+Technology light customer side, technology heavy company side.
 
-### Contribution guidelines ###
+One list of incoming queries seen by multiple representatives: open so problems are shared
+Sentiment Analysis: Highlights unhappy users as a priority to remedy
+Nexmo Number Information: network-availability gives an indication of customer response time; number validity flags requests from fake numbers, and network-provider highlights potential sales opportunities.
+A techni
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+NB: All statistics came from this survey by Accenture last year: http://www.accenture.com/Microsites/global-consumer-pulse-research/Pages/home.aspx
